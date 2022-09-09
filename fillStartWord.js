@@ -2,13 +2,12 @@ const { template } = require('@babel/core')
 
 function fillStartWord(startWord, word) {
 
-if(typeof word===null || typeof word===undefined){
+if(word===null || word===undefined){
     return undefined;
 }
 
 let fullword; 
-fullword.includes(startWord) ? (fullword=word) : (fullword=startWord+word) ;
-
+word.includes(startWord) ? (fullword=word) : (fullword=startWord+word);
   return fullword;
 }
 module.exports = fillStartWord
