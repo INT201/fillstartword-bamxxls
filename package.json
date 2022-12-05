@@ -6,9 +6,21 @@
     "@babel/core": "*",
     "@babel/preset-env": "*",
     "babel-jest": "*",
-    "jest": "*"
+    "jest": "^29.0.2"
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "description": "- ตัวอย่างเช่น\r   1. startWord = \"1-2565-\", word = \"Hello World\", จะได้ \"1-2565-Hello World\"\r   2. startWord = \"JS\" , word = \"beginner\" จะได้ \"JSbeginner\"\r   3. startWord = \"first\" , word = \"firststep\" จะได้ \"firststep\"\r   4. startWord = \"first\" , word = null จะได้ undefined\r   5. startWord = \"first\" , word = undefined จะได้ undefined",
+  "main": "fillStartWord.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INT201/fillstartword-bamxxls.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/INT201/fillstartword-bamxxls/issues"
+  },
+  "homepage": "https://github.com/INT201/fillstartword-bamxxls#readme"
 }
